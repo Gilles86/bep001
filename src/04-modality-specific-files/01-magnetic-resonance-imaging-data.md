@@ -281,6 +281,11 @@ filename MUST make use of this key/value pair to distinguish between them.
 The `part-<mag/phase>` key/value pair is associated with the DICOM tag 0008,0008
 `Image Type`. For example, see `MP2RAGE` suffix. 
 
+#### Derived quantitative maps versus raw data
+For consistency, quantitative images/maps (e.g., T1map, T2map), should be stored in the derivatives-folder,
+but can be symlinked to the corresponding sourcedata-directory, to facilitate the easy use of these images
+as input to processing workflows implemented as BIDS-apps.
+
 ### Task (including resting state) imaging data
 
 ```Text
