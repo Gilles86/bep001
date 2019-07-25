@@ -1,5 +1,8 @@
 {
+    "NumberShots": 150,
+    "RepetitionTimeInversion": 6.723,
     "InversionTime": 0.67,
     "FlipAngle": 7,
     "RepetitionTimeExcitation": 0.0062
+    "EchoTime": 0.006
 }
